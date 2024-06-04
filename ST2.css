@@ -1,0 +1,106 @@
+@charset "utf-8";
+Nav {
+    width: 100%;
+    height: 66px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E2E2E2;
+}
+.menu ul li {
+    display: inline;
+    margin-right: 20px;
+}
+.title h1 {
+	font-family: "文鼎魏碑B5Std_B", sans-serif;
+    margin-left: 20px;
+    font-size: 33px;
+    color: #78844D;
+}
+.menu a:link {
+    color: #78844D;
+
+}
+.menu a:hover {
+    text-decoration: underline;
+    color: #A3A3A3;
+    font-weight: 500;
+}
+hader {
+    width: 100%;
+    height: 100vh;
+    background-color: #862C2C;
+    background-image: url(750x.png);
+}
+article {
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.source {
+    background-color: #DCDCDC;
+}
+article h3 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+article p {
+    font-size: 22px;
+}
+.source p {
+    font-size: 22px;
+}
+
+
+.container1 {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 90%;
+}
+.container1 .left {
+    flex: 1;
+    font-size: 22px;
+    line-height: 33px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+.container1 .lright {
+    flex: 1;
+    background-image: url(123.jpg);
+    height: 374px;
+    text-align: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.container2 {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.container2 .col1 {
+    flex: 1;
+    background-image: url(750x.png);
+    height: 529px;
+}
+.container2 .col2 {
+    flex: 1;
+    background-image: url(750.png);
+    height: 829px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+}
+
+.container3 {
+    width: 90%;
+    display: flex;
+}
+footer {
+    margin-top: 20px;
+}

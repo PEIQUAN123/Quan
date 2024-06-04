@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+.container {
+    font-family: "文鼎魏碑B5Std_B", sans-serif;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+hader h1 {
+	font-family: "彣書等寬", sans-serif;
+    color: #78844D;
+    text-align: center;
+    font-size: 60px;
+}
+
+
+hader nav {
+    text-align: center;
+}
+nav a:link {
+    text-decoration: none;
+}
+nav a:hover {
+    color: #DBDBDB;
+    text-decoration: underline;
+}
+.img {
+    height: 300px;
+    border-radius: 15px;
+}
+article h3 {
+    background-color: #78844D;
+    border-radius: 8px;
+    color: #E2E2E2;
+    height: 33px;
+    padding-left: 11px;
+    line-height: 33px;
+}
+
+
+
+
+
+
+main {
+    height: 800px;
+}
+
+footer {
+
+}

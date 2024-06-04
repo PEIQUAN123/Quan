@@ -1,0 +1,228 @@
+@charset "utf-8";
+nav {
+    width: 100%;
+    height: 60px;
+    background-color:floralwhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.title h1 {
+    margin-left: 15px;
+    font-size: 33px;
+    color: #72722D;
+    font-family: "文鼎魏碑B5Std_B";
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 15px;
+}
+.menu a:link {
+    text-decoration: none;
+    color: #72722D;
+}
+.menu a:hover {
+    color: #163B08;
+    text-decoration: underline;
+    font-weight: 600;
+}
+header {
+    width: 90%;
+    height: 100vh;
+    background-image: url(123.jpg);
+    background-position: 100% 100%;
+    background-size: 100%;
+    background-size: 100% 100%;
+    padding-top: 10vh;
+    padding-right: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 10vh;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+header a:link {
+    background-color: #915354;
+    padding-top: 13px;
+    padding-right: 15px;
+    padding-bottom: 13px;
+    padding-left: 15px;
+    text-decoration: none;
+    color: whitesmoke;
+    border-radius: 13px;
+}
+header a:hover {
+    background-color: #225B0C;
+    padding-top: 10px;
+    padding-right: 13px;
+    padding-bottom: 10px;
+    padding-left: 13px;
+    text-decoration: none;
+    color: whitesmoke;
+    border-radius: 13px;
+}
+article {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.source {
+    background-color: #C8D1A7;
+}
+article h2 {
+    text-align: center;
+    font-size: 33px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.container1 {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.container1 .left {
+    flex: 1;
+    font-size: 22px;
+    line-height: 33px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    padding-top: auto;
+    padding-right: auto;
+    padding-bottom: auto;
+    padding-left: auto;
+}
+.container1 .right {
+    flex: 1;
+    background-image: url(750.png);
+    height: 610px;
+}
+article p {
+    font-size: 22px;
+    line-height: 33px;
+    width: 85%;
+    display: flex;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+
+.container2 {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    height: 350px;
+    background-size: cover;
+}
+.container2 .col1 {
+    flex: 1;
+    background-image: url(1.webp);
+    margin-top: 7px;
+    margin-right: 7px;
+    margin-left: 7px;
+    margin-bottom: 7px;
+    border-radius: 22px;
+    background-size: cover;
+    align-items: flex-end;
+    display: flex;
+}
+.container2 .col2 {
+    flex: 1;
+    background-image: url(2000.webp);
+    margin-top: 7px;
+    margin-right: 7px;
+    margin-left: 7px;
+    margin-bottom: 7px;
+    border-radius: 22px;
+    background-size: cover;
+    align-items: flex-end;
+    display: flex;
+}
+.container2 .col3 {
+    flex: 1;
+    background-image: url(2000x.webp);
+    margin-top: 7px;
+    margin-right: 7px;
+    margin-left: 7px;
+    margin-bottom: 7px;
+    border-radius: 22px;
+    background-size: cover;
+    align-items: flex-end;
+    display: flex;
+}
+.container2 .col4 {
+    flex: 1;
+    background-image: url(%E9%BA%BB%E8%96%8F%E6%9C%88%E9%A4%85-30.webp);
+    margin-top: 7px;
+    margin-right: 7px;
+    margin-left: 7px;
+    margin-bottom: 7px;
+    border-radius: 22px;
+    background-size: cover;
+    align-items: flex-end;
+    display: flex;
+}
+.container2  .colf1 {
+    background-color: #72722D;
+    color: whitesmoke;
+    opacity: 0.7;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 100%;
+}
+.container2 .colf2 {
+	background-color: #72722D;
+    color: whitesmoke;
+    opacity: 0.7;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 100%;
+}
+.container2 .colf3 {
+    background-color: #72722D;
+    color: whitesmoke;
+    opacity: 0.7;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 100%;
+}
+.container2 .colf4 {
+    background-color: #72722D;
+    color: whitesmoke;
+    opacity: 0.7;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 100%;
+}
+.link:link {
+}
+.container3 {
+    display: flex;
+    width: 85%;
+}
+.container3 .left {
+    flex: 1;
+}
+.container3 .right {
+    flex: 1;
+}
